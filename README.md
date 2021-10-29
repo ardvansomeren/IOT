@@ -4,6 +4,18 @@ Raspbian and Arduino projects - Exploring IOT
 ## Git best practices
 Following best practices on how to use GIT https://www.freecodecamp.org/news/git-for-professionals/
 
+### GitHub Personal Access Token (PAT)
+The Personal Access Token (PAT) is used to secure and limit the access to a repository. It is a good practice to minimize the access, or 'principle of least priviledge'.
+A good place to start seems to be the explanation in the GitHub community: What are the GitHub scopes needed when creating a Personal Access Token?
+
+...there is a better article outlining the permissions details here: https://docs.microsoft.com/en-us/azure/devops/pipelines/repos/github?view=azure-devops&tabs=yaml
+
+In this case I choose to go for:
+
+- **Repo**
+- **Admin**:Repo_hook
+- **User**: Read:User and User:Email
+
 ### Branche strategy
 I am chosing to create two additional branches for this track. **Feature** for every new project or course I start. **Develop** for every time I start changes in my code.
 
