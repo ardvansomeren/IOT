@@ -1,4 +1,4 @@
-# arduino-eli
+# IOT
 Raspbian and Arduino projects - Exploring IOT
 
 ## Git best practices
