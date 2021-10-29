@@ -16,4 +16,9 @@ Additionally to exploring GIT best practices and IOT developments, this track is
 - Feature: Every project or course
 - User Story: Description of the MVP steps
 
+### Linking Azure Boards to GitHub commit or pull request.
+
+### Linking from GitHub commit to Azure Board work item
+In the Microsoft documentation is explained how to link from a commit to a Azure Board work item by using AB#{work item id}
+
 ## Azure IOT
