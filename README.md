@@ -16,7 +16,7 @@ In this case I choose to go for:
 - **Admin**:Repo_hook
 - **User**: Read:User and User:Email
 
-### Branche strategy
+### Branch strategy
 In line with the best practices explained in the turorial I adjusted the strategy. Git Flow:
 **main** - long running branch
 **develop** - long running branch
