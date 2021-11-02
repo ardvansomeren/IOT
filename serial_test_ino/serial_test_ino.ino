@@ -1,6 +1,10 @@
-#define sensorPin  A0
+#define sensorPin  A1
 
 void setup() {
+  //identify sketch
+  Serial.print("avs1416 - serial_test_ino");
+  //Serial.print(DATE);
+  //Serial.print(TIME);
   Serial.begin(9600);
 }
 
@@ -16,5 +20,5 @@ void loop()
   Serial.print(temperatureC); Serial.print(" degrees C  -  ");
   Serial.print(temperatureF); Serial.println(" degrees F");
 
-  delay(1000);
+  delay(3000);
 }
