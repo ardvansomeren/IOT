@@ -18,7 +18,7 @@ void loop() {
   T = T - 273.15; 
   //T = (T * 9.0)/ 5.0 + 32.0; //Fahrenheit
 
-  Serial.print("Temperature: "); 
+  Serial.print("Temp: "); 
   Serial.print(T);
   Serial.println(" C"); 
 
