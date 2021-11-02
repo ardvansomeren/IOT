@@ -27,8 +27,8 @@ Adafruit_Sensor *bmp_pressure = bmp.getPressureSensor();
 void setup() {
   //Sketch identification AVS1614
   Serial.print("bmp250_sensortest");
-  Serial.print(DATE);
-  Serial.print(TIME);
+  //Serial.print(DATE);
+  //Serial.print(TIME);
   //
   Serial.begin(9600);
   Serial.println(F("BMP280 Sensor event test"));
