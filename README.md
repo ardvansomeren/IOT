@@ -44,3 +44,6 @@ In the [Microsoft documentation](https://docs.microsoft.com/en-us/azure/devops/b
 
 ## Azure IOT
 As a tech savvy sales consultant working in the hightech discrete manufacturing industry I need to get a deeper understanding of what is developing in the realm of Azure IOT so I can explain the added value of these developments with more confidence to my collegues and customers.
+
+## Docker
+As a tech savvy sales consultant working in the hightech discrete manufacturing industry I need to get a deeper understanding of modern technologies behind virtualization like Docker and K8S so I can implement these technologies in the design of new propositions and solutions and can explain the added calue of these developments with more confidence to my collegues, partners and customers
