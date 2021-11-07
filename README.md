@@ -31,6 +31,14 @@ The Git connection from Visual Studio Code seems to be configured correctly alre
 ## IOT
 Exploring Raspbian and Arduino projects to get a better understanding how IOT is developing and how these developments can be used. Starting with the very basics following and implementing the example projects from Eli - [YouTube Playlist Ardione from Eli the Computer Guy](https://www.youtube.com/playlist?list=PLJcaPjxegjBUsCc8PDvalF9j9dvc1RpUh)
 
+### Arduino
+Several Arduino boards used
+
+#### Multifunctional Shield
+Exploring the Arduino multifunctional Shield. Connecting sensors and using the different integrated buttons, piezo speaker and display. Added this part a bit later in this Track.
+
+### RaspberryPi
+
 ## Azure DevOps
 Additionally to exploring GIT best practices and IOT developments, this track is using Azure DevOps to explore the integration of GIT with Azure DevOps and using an Agile project to 'manage' the track.
 - Epic: This track
