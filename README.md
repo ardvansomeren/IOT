@@ -34,13 +34,15 @@ Exploring Raspbian and Arduino projects to get a better understanding how IOT is
 ### Arduino
 Several components and methods are used during this project. Some counts for the Arduino Uno boards. Functional there isn't a lot of difference, but along the way you can run in some issues.
 
-There are two components in an Arduino board from a programming perspective , one is the *microcontroller* that stores your program and another is an *ic* which acts as the bridge between the computers USB and the microcontroller that is **Atmega328p**.
+**What is the difference between Arduino Uno R3 compatible board ATmega328P ATmega16U2 and Arduino Uno R3 ATmega328P USB board CH340G?**
+
+There are two components in an Arduino board from a programming perspective , one is the *microcontroller* that stores your program and another is an *ic* which acts as the bridge between the computers *USB* and the *microcontroller* that is **Atmega328p**.
 
 Now the *microcontroller* is same on both the boards that is **Atmega328p**, the *programmer* is different .
 
-In case of **Atmega16U2** one ,it is a microcontroller which has been formatted with a firmware to act as the USB to TTL convertor, this is the official method used by original arduino boards after they discarded FTDI, This is better and efficient although Unless and until you have serious applications it does not offer much improvements and is costly.
+In case of **Atmega16U2** one, it is a *microcontroller* which has been formatted with a firmware to act as the USB to TTL convertor, this is the official method used by original Arduino boards after they discarded FTDI, This is better and efficient although *unless and until you have serious applications* it does not offer much improvements and is costly.
 
-The **CH340** is a chinese USB to TTL convertor chip that is specifically made for this purpose ,since this is neither a microcontroller like a 16U2 nor a branded one like FTDI, it is comparatively cheaper, *getting its drivers is a little tough as you would have to download from the chinese manufacturing site* and its installation also has chinese language although once install it works fine.
+The **CH340** is a Chinese *USB to TTL convertor chip* that is specifically made for this purpose ,since this is neither a microcontroller like a 16U2 nor a branded one like FTDI, it is comparatively cheaper, *getting its drivers is a little tough as you would have to download from the chinese manufacturing site* and its installation also has chinese language although once install it works fine.
 
 **Comparisons**
 
