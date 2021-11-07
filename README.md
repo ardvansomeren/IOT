@@ -32,10 +32,38 @@ The Git connection from Visual Studio Code seems to be configured correctly alre
 Exploring Raspbian and Arduino projects to get a better understanding how IOT is developing and how these developments can be used. Starting with the very basics following and implementing the example projects from Eli - [YouTube Playlist Ardione from Eli the Computer Guy](https://www.youtube.com/playlist?list=PLJcaPjxegjBUsCc8PDvalF9j9dvc1RpUh)
 
 ### Arduino
-Several Arduino boards used
+Several components and methods are used during this project. Some counts for the Arduino Uno boards. Functional there isn't a lot of difference, but along the way you can run in some issues.
+
+There are two components in an Arduino board from a programming perspective , one is the *microcontroller* that stores your program and another is an *ic* which acts as the bridge between the computers USB and the microcontroller that is **Atmega328p**.
+
+Now the *microcontroller* is same on both the boards that is **Atmega328p**, the *programmer* is different .
+
+In case of **Atmega16U2** one ,it is a microcontroller which has been formatted with a firmware to act as the USB to TTL convertor, this is the official method used by original arduino boards after they discarded FTDI, This is better and efficient although Unless and until you have serious applications it does not offer much improvements and is costly.
+
+The **CH340** is a chinese USB to TTL convertor chip that is specifically made for this purpose ,since this is neither a microcontroller like a 16U2 nor a branded one like FTDI, it is comparatively cheaper, *getting its drivers is a little tough as you would have to download from the chinese manufacturing site* and its installation also has chinese language although once install it works fine.
+
+**Comparisons**
+
+-CH340 is cheaper ,16U2 is costlier
+-Ch340 is an IC , 16U2 is a microcontroller
+-Ch340 can not be reprogrammed, 16U2 can be reprogrammed and be used as standalone microcontroller
+-CH340 drivers need to be installed seperately , atmega16U2 drivers do not need special care
+-16U2 is the method used by original arduino guys from itAly, CH340 is the chinese jugad or hack
+-All original arduino boards use 16U2 or FTDI in some cases.cheap chinese ones use CH340.
+
+**Arduino UNO R3 ATMega328P + ATmega16u2**
+
+![image](https://user-images.githubusercontent.com/10297499/140656336-0a286429-878f-4620-9da3-dc8ab6ffae41.png) 
+
+**Arduino UNO R3 ATmega328P + CH340**
+
+![image](https://user-images.githubusercontent.com/10297499/140656355-11988dce-c62d-4fff-8720-900f0b4570eb.png)
+
 
 #### Multifunctional Shield
 Exploring the Arduino multifunctional Shield. Connecting sensors and using the different integrated buttons, piezo speaker and display. Added this part a bit later in this Track.
+
+![image](https://user-images.githubusercontent.com/10297499/140655830-7ed79956-08ab-42bd-833e-62b24390b677.png)
 
 ### RaspberryPi
 
