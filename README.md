@@ -29,6 +29,13 @@ In this Git Flow strategy the names of the develop and feature branches were swa
 The Git connection from Visual Studio Code seems to be configured correctly already.
 
 ## IOT
+- RaspbianPi
+- Arduino
+- ESP8266 and ESP32
+- RTOS
+- FPGA
+
+### RaspberryPi
 Exploring Raspbian and Arduino projects to get a better understanding how IOT is developing and how these developments can be used. Starting with the very basics following and implementing the example projects from Eli - [YouTube Playlist Ardione from Eli the Computer Guy](https://www.youtube.com/playlist?list=PLJcaPjxegjBUsCc8PDvalF9j9dvc1RpUh)
 
 ### Arduino
@@ -66,8 +73,6 @@ The **CH340** is a Chinese *USB to TTL convertor chip* that is specifically made
 Exploring the Arduino multifunctional Shield. Connecting sensors and using the different integrated buttons, piezo speaker and display. Added this part a bit later in this Track.
 
 ![image](https://user-images.githubusercontent.com/10297499/140655830-7ed79956-08ab-42bd-833e-62b24390b677.png)
-
-### RaspberryPi
 
 ## Azure DevOps
 Additionally to exploring GIT best practices and IOT developments, this track is using Azure DevOps to explore the integration of GIT with Azure DevOps and using an Agile project to 'manage' the track.
