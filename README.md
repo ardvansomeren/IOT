@@ -74,6 +74,12 @@ Exploring the Arduino multifunctional Shield. Connecting sensors and using the d
 
 ![image](https://user-images.githubusercontent.com/10297499/140655830-7ed79956-08ab-42bd-833e-62b24390b677.png)
 
+## ESP
+[Espressif documentation and guidlines](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/get-started/index.html#development-board-overviews)
+
+### ESP32
+
+
 ## Azure DevOps
 Additionally to exploring GIT best practices and IOT developments, this track is using Azure DevOps to explore the integration of GIT with Azure DevOps and using an Agile project to 'manage' the track.
 - Epic: This track
